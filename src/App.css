@@ -1,0 +1,208 @@
+.home-outer {
+  margin-top: 85px;
+}
+.Home-main{
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.movie-poster {
+  height: 420px;
+  width: 100%;
+  /* zoom  in */
+  object-fit: cover;
+}
+
+.movie-name {
+  font-size: 24px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.movie-rating {
+  font-size: 24px;
+  font-family: 'Poppins';
+  margin: 0px;
+}
+.movie-name-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-summary {
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 14px;
+  padding: 7px;
+}
+
+.counter-ud{
+  display: flex; 
+  justify-content: space-between;
+}
+
+.movie-specs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-container {
+  width: 270px;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  margin-top: 85px;
+}
+
+.addmovie-outer {
+  margin: 0px auto;
+  margin-top: 85px;
+  padding: 10px;
+  gap: 20px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: stretch;
+}
+
+.Movie-details-Container {
+  max-width: 80%;
+  padding: 15px;
+}
+
+.movieDetail-outer {
+  margin-top: 62px;
+}
+
+.btn-styling {
+  background-color: #4e73df;
+  border-color: #4e73df;
+  color: #fff;
+}
+
+.login-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formm-outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.formm {
+  width: 600px;
+}
+.login-fields {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-div {
+  display: flex;
+  align-items: center;
+}
+.checkbox-div > p {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.title-create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.title-create > h1 {
+  margin: 0px;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+.dashboard-maincard{  
+  padding: 10px ; 
+  margin: 30px;
+  margin-top: 50px !important;
+}
+
+.forget-exp{
+  color:#5A5A5A;
+  font-size: 20px; 
+  letter-spacing: 1px;
+}  
+
+/* login */
+
+.login-main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.outer-div { 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 600px
+}
+
+.title {
+  text-align: center;
+  font-family: "Poppins";
+}
+
+.signup-p {
+  letter-spacing: 1px;
+  text-align: center;
+} 
+
+.login-bottom {
+  margin-top: 15px;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showPassword-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.showPassword-div > p {
+  margin-bottom: 1px;
+  font-size: 15px;
+}
+
+
+
+
+
+
+/* .propic{
+  height:120px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.name{
+  
+  font-weight: normal;
+}
+.bold{
+  color: crimson;
+  font-weight: bolder;
+}
+.sec1{
+  text-align: center;
+} */
